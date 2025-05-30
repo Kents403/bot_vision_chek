@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIA O'zbekiston - Rasmiy Veb-sayt</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/kia_logo.png" alt="KIA Logo">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Bosh sahifa</a></li>
+                    <li><a href="#about">Biz haqimizda</a></li>
+                    <li><a href="#models">Modellar</a></li>
+                    <li><a href="#contact">Aloqa</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Yangi KIA bilan kelajakni his eting</h1>
+            <p>Innovatsiya, dizayn va yuqori sifat — har bir sayohat uchun mukammal hamroh.</p>
+            <a href="#models" class="btn-primary">Modellarni ko'rish</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>Biz Haqimizda</h2>
+            <div class="about-content">
+                <img src="assets/images/kia_factory.jpg" alt="KIA zavodi">
+                <p>KIA — dunyodagi eng tez rivojlanayotgan avtomobil brendlaridan biri. Biz yuqori sifatli, innovatsion va ekologik toza avtomobillarni ishlab chiqarishga intilamiz. Har bir KIA modeli mijozlarimizning ehtiyojlarini qondirish, qulaylik va xavfsizlikni ta'minlash maqsadida yaratilgan.</p>
+                <p>O'zbekistonda KIA avtomobillari keng modellarni taklif etadi va ishonchli xizmat ko'rsatish markazlari orqali mijozlarimizga doimiy yordam ko'rsatadi. Bizning maqsadimiz — har bir mijoz uchun eng yaxshi avtomobil tanlovini taqdim etish va unutilmas haydash tajribasini yaratish.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="models" class="models-section">
+        <div class="container">
+            <h2>Bizning Modellarimiz</h2>
+            <div class="model-grid">
+                <div class="model-card">
+                    <img src="assets/images/kia_k5.jpg" alt="KIA K5">
+                    <h3>KIA K5</h3>
+                    <p>Sportiv dizayn va ilg'or texnologiyalarning uyg'unligi. Shahar yo'llari uchun ideal tanlov.</p>
+                    <a href="#" class="btn-secondary view-details"
+                       data-model-name="KIA K5"
+                       data-full-description="<p><b>KIA K5</b> — bu nafaqat avtomobil, balki san'at asari. Uning sportiv va dinamik dizayni, shahar ko'chalarida o'ziga xos uslubni namoyish etadi. K5 zamonaviy texnologiyalar bilan jihozlangan bo'lib, haydashni yanada qiziqarli va xavfsiz qiladi.</p><p>Kuchli dvigateli, qulay saloni va ilg'or xavfsizlik tizimlari bilan K5 har bir safarni unutilmas qiladi. Uning aqlli multimedia tizimi va intellektual yordamchi tizimlari yo'l davomida sizning sodiq hamrohingiz bo'ladi. Uning yuqori yonilg'i samaradorligi va past emissiyasi ekologiyaga ham g'amxo'rlik qilish imkonini beradi.</p>">Batafsil</a>
+                </div>
+                <div class="model-card">
+                    <img src="assets/images/kia_sportage.png" alt="KIA Sportage">
+                    <h3>KIA Sportage</h3>
+                    <p>SUV segmentida qulaylik, funksionallik va zamonaviy ko'rinishning yorqin namoyandasi.</p>
+                    <a href="#" class="btn-secondary view-details"
+                       data-model-name="KIA Sportage"
+                       data-full-description="<p><b>KIA Sportage</b> — bu har qanday sarguzashtga tayyor bo'lgan universal SUV. Uning innovatsion dizayni va keng saloni sizga qulaylik va erkinlikni taqdim etadi. Sportage eng so'nggi xavfsizlik funksiyalari va yordamchi tizimlar bilan jihozlangan bo'lib, har qanday yo'l sharoitida ishonchli boshqaruvni ta'minlaydi.</p><p>Uning iqtisodiy yonilg'i sarfi va kuchli motori shaharda ham, tog'li yo'llarda ham a'lo darajada harakatlanish imkonini beradi. Aqlli to'xtash tizimi, yo'l chizig'ini nazorat qilish va blind-spot monitori kabi funksiyalar sizning xavfsizligingizni ta'minlaydi. Sportage – oilaviy sayohatlar va shahar hayoti uchun mukammal tanlov.</p>">Batafsil</a>
+                </div>
+                <div class="model-card">
+                    <img src="assets/images/kia_sorento.jpg" alt="KIA Sorento">
+                    <h3>KIA Sorento</h3>
+                    <p>Oilaviy sayohatlar va sarguzashtlar uchun keng va kuchli SUV.</p>
+                    <a href="#" class="btn-secondary view-details"
+                       data-model-name="KIA Sorento"
+                       data-full-description="<p><b>KIA Sorento</b> — bu katta oilalar va sayohatni sevuvchilar uchun ideal tanlov. Uning keng va funksional saloni 7 nafargacha yo'lovchini qulay joylashtirish imkonini beradi. Sorento zamonaviy dizayn, ilg'or xavfsizlik texnologiyalari va kuchli dvigatellar bilan birgalikda keladi.</p><p>Bu model sizga har qanday masofani qulaylik bilan bosib o'tishga yordam beradi, shu bilan birga yo'l xavfsizligini maksimal darajada ta'minlaydi. Uning premium materiali, aqlli interyeri va innovatsion haydash yordamchi tizimlari har bir safarni beqiyos qiladi. Sorento bilan har bir manzilingizga qulaylik va ishonch bilan yetib boring.</p>">Batafsil</a>
+                </div>
+                <div class="model-card">
+                    <img src="assets/images/kia_carnival.jpg" alt="KIA Carnival">
+                    <h3>KIA Carnival</h3>
+                    <p>Premium MPV segmentida qulaylik, hashamat va kenglikni taqdim etadi.</p>
+                    <a href="#" class="btn-secondary view-details"
+                       data-model-name="KIA Carnival"
+                       data-full-description="<p><b>KIA Carnival</b> — bu hashamat va amaliylikni o'zida mujassam etgan MPV. Uning keng va o'zgaruvchan saloni biznes sayohatlari va oilaviy ta'tillar uchun mukammaldir. Carnival ilg'or texnologiyalar, yuqori darajadagi qulaylik va xavfsizlikni taklif etadi.</p><p>Elektron eshiklar, premium audio tizim va ko'plab saqlash joylari bilan u sizning barcha ehtiyojlaringizni qondiradi. Uning zamonaviy dizayni va kuchli performansi uni o'z sinfidagi eng yaxshi avtomobillardan biriga aylantiradi. Carnival bilan har bir sayohat siz uchun bir maroqli tajriba bo'ladi.</p>">Batafsil</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Biz bilan bog'laning</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Ismingiz:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Elektron pochta:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefon raqamingiz:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Xabaringiz:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Xabar yuborish</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 KIA O'zbekiston. Barcha huquqlar himoyalangan.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-telegram-plane"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modelDetailsModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h3 id="modal-model-name"></h3>
+            <div id="modal-full-description"></div>
+        </div>
+    </div>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+
+                // Close mobile menu if open
+                const mobileMenu = document.getElementById('mobile-menu');
+                const mainNav = document.querySelector('.main-nav');
+                if (mobileMenu.classList.contains('is-active')) {
+                    mobileMenu.classList.remove('is-active');
+                    mainNav.classList.remove('is-active');
+                }
+            });
+        });
+
+        // Mobile menu toggle
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mainNav = document.querySelector('.main-nav');
+
+        mobileMenu.addEventListener('click', () => {
+            mobileMenu.classList.toggle('is-active');
+            mainNav.classList.toggle('is-active');
+        });
+
+        // MODAL OYNA LOGIKASI
+        const modelModal = document.getElementById('modelDetailsModal');
+        const closeModelButton = modelModal.querySelector('.close-button');
+        const modalModelName = document.getElementById('modal-model-name');
+        const modalFullDescription = document.getElementById('modal-full-description');
+        const viewDetailsButtons = document.querySelectorAll('.view-details');
+
+        viewDetailsButtons.forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                const modelName = this.getAttribute('data-model-name');
+                const fullDescription = this.getAttribute('data-full-description'); // innerHTML uchun olamiz
+
+                modalModelName.textContent = modelName;
+                modalFullDescription.innerHTML = fullDescription; // HTML matnini joylaymiz
+                modelModal.style.display = 'flex'; // Modal oynani ko'rsatish
+            });
+        });
+
+        closeModelButton.addEventListener('click', function() {
+            modelModal.style.display = 'none'; // Modal oynani yashirish
+        });
+
+        // Modal oynadan tashqariga bosilganda
+        window.addEventListener('click', function(e) {
+            if (e.target == modelModal) {
+                modelModal.style.display = 'none'; // Modal oynani yashirish
+            }
+        });
+
+    </script>
+</body>
+</html>
